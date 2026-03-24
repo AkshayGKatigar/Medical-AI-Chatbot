@@ -19,6 +19,7 @@ While it does not replace professional medical advice, it helps users:
 - Make better decisions for themselves or their family.
 
 ## Features
+
 - Interactive chat interface.
 - AI responses based on medical knowledge.
 - Retrieval-Augmented Generation(Rag).
@@ -26,23 +27,24 @@ While it does not replace professional medical advice, it helps users:
 - Fast and responsive UI.
 
 ## How It Works (RAG Architecture)
+
 - User asks a question
 - The system searches relevant content from the medical book
 - Retrieved context is passed to the AI model
 - AI generates a response based on that context
 
 # Tech Stack
+
 ## Frontend
+
 - React
+
 ## Backend
+
 - FastAPI
+
 ## AI & Data
+
 - Ollama (Local LLM)
 - LangChain (RAG pipeline)
 - Pinecone (Vector Database for storing embeddings)
-
-
-
-
-
-
