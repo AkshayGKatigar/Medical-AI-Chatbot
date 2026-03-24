@@ -31,6 +31,18 @@ While it does not replace professional medical advice, it helps users:
 - Retrieved context is passed to the AI model
 - AI generates a response based on that context
 
+# Tech Stack
+## Frontend
+- React
+## Backend
+- FastAPI
+## AI & Data
+- Ollama (Local LLM)
+- LangChain (RAG pipeline)
+- Pinecone (Vector Database for storing embeddings)
+
+
+
 
 
 
