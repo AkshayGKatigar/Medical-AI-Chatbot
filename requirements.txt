@@ -1,12 +1,9 @@
 langchain==0.3.26
-<<<<<<< HEAD
 fastapi
 uvicorn
-=======
 langchain-community==0.3.26
 fastapi==0.111.0
 uvicorn==0.30.1
->>>>>>> 81b7e25750a1e3fdfad2fc854cabc9c787b0bbe4
 sentence-transformers==4.1.0
 pypdf==5.6.1
 python-dotenv==1.1.0
