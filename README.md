@@ -48,3 +48,28 @@ While it does not replace professional medical advice, it helps users:
 - Ollama (Local LLM)
 - LangChain (RAG pipeline)
 - Pinecone (Vector Database for storing embeddings)
+
+# Setup Instructions
+## 1. Clone Repository
+git clone https: https://github.com/AkshayGKatigar/Medical-AI-Chatbot
+cd Medical-AI-Chatbot
+## 2. Install Dependencies
+pip install -r requirements.txt
+## 3. Run Backend
+uvicorn app.main:app --reload
+## 4. Run Frontend
+npm install
+npm run dev
+
+# Disclaimer
+
+This project is built for educational purposes only.
+- It does not provide medical diagnosis
+- It is not a substitute for professional healthcare
+- Always consult a doctor for serious medical conditions
+
+# Goal of the Project
+
+- To build a real-world AI application
+- To implement RAG (Retrieval-Augmented Generation)
+- To explore AI in healthcare domain
