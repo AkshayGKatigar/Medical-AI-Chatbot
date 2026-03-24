@@ -8,7 +8,7 @@ from langchain_pinecone import PineconeVectorStore
 load_dotenv()
 
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY").strip()
-print(PINECONE_API_KEY)
+
 
 
 extracted_data = load_pdf_file(data='data/')
