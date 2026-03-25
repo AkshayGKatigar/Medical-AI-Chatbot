@@ -1,7 +1,6 @@
 langchain==0.3.26
-fastapi
-uvicorn
 langchain-community==0.3.26
+langchain-pinecone==0.2.8
 fastapi==0.111.0
 uvicorn==0.30.1
 sentence-transformers==4.1.0
